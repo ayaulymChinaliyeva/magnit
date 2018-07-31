@@ -1,0 +1,44 @@
+<!---developed by Ayaulym Chinaliyeva--->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="icon" href="icon.ico">
+	<link rel="stylesheet" type="text/css" href="pagesDesign.css">
+</head>
+<body>
+<div class="homePageBottom">
+	<form action="http:localhost/magnit/registerNewUser.php" method="POST">
+		<fieldset>
+			<legend>Регистрация</legend>
+			<div class="homePageBottom" style="line-height: 1.6;">
+				<h4>Имя</h4>
+				<h4>Фамилия</h4>
+				<h4>Логин</h4>
+				<input type="radio" name="radio" value="Owner">Владелец
+				<h4>Адрес</h4>
+				<h4>Номер телефона</h4>
+				<h4>Эл. адрес</h4>
+				<h4>Придумайте пароль</h4>
+				<h4>Повторите пароль</h4>
+			</div>
+			<div class="homePageBottom">
+				<br>
+				<input type="text" name="name"><br><br>
+				<input type="text" name="lname"><br><br>
+				<input type="text" name="login"><br><br>
+				<input type="radio" name="radio" value="Company">Компания<br><br>
+				<input type="text" name="address"><br><br>
+				<input type="text" name="phoneNumber"><br><br>
+				<input type="text" name="email"><br><br>
+				<input type="text" name="password"><br><br>
+				<input type="text" name="passwordRepeat"><br><br>
+			</div>
+			<div>
+				<button>Зарегистрироваться</button>
+			</div>
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>

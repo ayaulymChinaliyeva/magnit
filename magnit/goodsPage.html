@@ -1,0 +1,39 @@
+<!---developed by Ayaulym Chinaliyeva--->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Goods</title>
+	<link rel="icon" href="icon.ico">
+	<link rel="stylesheet" type="text/css" href="pagesDesign.css">
+</head>
+<body>
+<div class="homePageBottom" style="padding-left: 20px;">
+	<div class="homePageBottom" style="padding-left: 20px;">
+		<a target="_blank" href="foodstuffs.html"><img class="categoryPhotos" src="foodstuffs.jpg"></a><br>
+		<h2>Foodstuffs</h2>
+	</div>
+	<div class="homePageBottom" style="padding-left: 20px;">
+		<a target="_blank" href="industrial_goods.html"><img class="categoryPhotos" src="industrial_goods.jpg"></a><br>
+		<h2>Industrial goods</h2>
+	</div>
+	<div class="homePageBottom" style="padding-left: 20px;">
+		<a target="_blank" href="printed_matter.html"><img class="categoryPhotos" src="printed_matter.jpg"></a><br>
+		<h2>Printed matter</h2>
+	</div>
+</div>
+<div>
+	<form action="http://localhost/magnit/registerNewProduct.php" method="POST">
+		<fieldset>
+			<legend>
+				Register your product!
+			</legend>
+			<input type="text" name="productName" placeholder="Product name"><br>
+			<input type="text" name="category" placeholder="Category"><br>
+			<input type="text" name="price" placeholder="Price in dollars"><br>
+			<input type="text" name="description" placeholder="Write description in 600 symbols"><br><br>
+			<button>Register</button>
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>

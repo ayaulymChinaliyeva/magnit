@@ -1,0 +1,141 @@
+/*developed by Ayaulym Chinaliyeva*/
+.navbar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #929292;
+}
+.navbarOption{
+	float: left;
+    border-right: 1px solid #bbb;
+}
+.navbarLink{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+.navbarLink:hover{
+	background-color: #F8E0E0;
+}
+.navbarLink:last-child{
+	border-right: none;
+}
+.advertisingPhoto{
+    width: 100%;
+    height: 400px;
+}
+.liForCompany{
+float: center; 
+text-decoration-style: underline; 
+color: white; 
+text-align: center; 
+font-size: 20px; 
+font-family: sans-serif Times New Roman;
+}
+.photoLine{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+.photoLineOption{
+    float: left;
+    border-right: 1px solid #bbb;
+    padding-left: 5px;
+}
+.homePageBottom{
+    align-content: right;
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: top;
+    align-items: top;
+    vertical-align: top;
+    padding-right: 50px;
+}
+.linkPhotos{
+    width: 25px;
+    height: 25px;
+}
+h4{
+    color: #424242;
+    font-weight: bold;
+    font-family: serif;
+}
+.linksHomeBottom{
+    text-decoration-style: none;
+    text-decoration-line: none;
+    color: #424242;
+    font-family: sans-serif Times New Roman;
+}
+.linksHomeBottom:hover, .linksHomeBottom:focus{
+    color: red;
+}
+button{
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 3em;
+    background-color: #424242;
+    color: white;
+    text-shadow: #F8E0E0;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+}
+button:hover, button:focus{
+    background-color: #F8E0E0;
+    text-decoration-line: underline;
+}
+.photoIconsBasket{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px solid black;
+}
+h2{
+    color: #848484;
+    text-align: center;
+    font-weight: bold;
+    font-style: sans-serif;
+}
+.categoryPhotos{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.categoryPhotos:hover, .categoryPhotos:focus{
+    border-color: red;
+}
+.categoryListStyle{
+    word-wrap: all; word-spacing: 5px; line-height: 1.8; text-decoration-line: none; list-style-type: square; text-align: left;
+}
+.categoryListItem{
+    color: #2E2E2E;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 22px;
+    text-shadow: 2px solid red;
+    text-decoration-line: none;
+}
+.categoryListItem:hover, .categoryListItem:focus{
+    color: red;
+    font-style: italic;
+}
+input[type=text]{
+    width: 50%;
+    border: 2px solid black;
+    text-align: left;
+    font-size: 22px;
+    font-family: sans-serif Times New Roman;
+}
+input[type=text]:hover{
+    border-color: red;
+}
+input[type=text]:focus{
+    width: 100%;
+}
